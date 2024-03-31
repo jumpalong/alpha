@@ -1,0 +1,1 @@
+import{g as n}from"./ProvideEventLine-DRQ1icxU.js";import{L as s}from"./index-DRg9t0Vr.js";const[l,r]=n(()=>{const o=s(new Map);return{loginCompleteHook:o,async runHook(){for(const[e,t]of o.value.entries())await t()}}}),[p,m]=n(o=>{const e=r();return{setHook(t){e&&e.loginCompleteHook.value.set(o.value,t)}}});export{l as a,r as b,p,m as u};
